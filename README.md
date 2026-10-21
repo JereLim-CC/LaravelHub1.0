@@ -5,6 +5,7 @@ A beginner Laravel POS project with Home, About, Customer Accounts, and User Acc
 
 # Files to Check
 app/
+
 └── Http/
     └── Controllers/
         ├── PageController.php
@@ -12,6 +13,7 @@ app/
         └── UserController.php
 
 resources/
+
 └── views/
     ├── layout.blade.php
     ├── home.blade.php
@@ -20,4 +22,5 @@ resources/
     └── users.blade.php
 
 routes/
+
 └── web.php
