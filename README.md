@@ -4,11 +4,20 @@ Zero To Four Pages
 A beginner Laravel POS project with Home, About, Customer Accounts, and User Accounts pages. Customer and user examples use static PHP arrays.
 
 # Files to Check
->app
- >http
-   >Controllers
+app/
+└── Http/
+    └── Controllers/
+        ├── PageController.php
+        ├── CustomerController.php
+        └── UserController.php
 
->resources
-  >views
+resources/
+└── views/
+    ├── layout.blade.php
+    ├── home.blade.php
+    ├── about.blade.php
+    ├── customers.blade.php
+    └── users.blade.php
 
->routes/  
+routes/
+└── web.php
