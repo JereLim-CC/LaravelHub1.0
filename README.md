@@ -8,7 +8,7 @@ app/
 
 └── Http/
     
-    └── Controllers/
+└── Controllers/
         ├── PageController.php
         ├── CustomerController.php
         └── UserController.php
