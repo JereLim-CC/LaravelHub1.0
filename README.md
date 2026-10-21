@@ -7,6 +7,7 @@ A beginner Laravel POS project with Home, About, Customer Accounts, and User Acc
 app/
 
 └── Http/
+    
     └── Controllers/
         ├── PageController.php
         ├── CustomerController.php
